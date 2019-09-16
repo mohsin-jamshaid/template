@@ -429,7 +429,7 @@ footer div.lower_div{
 }
 
 @media screen and (max-width: 320px){
-  /* body cann no longer support width less than 320px and will not shrink now  */
+  /* body can no longer support width less than 320px and will not shrink now  */
   .body{
     width: 320px;
   }
