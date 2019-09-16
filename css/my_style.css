@@ -2,6 +2,7 @@ body{
   margin: 0;
   clear: both;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .container{
@@ -175,7 +176,7 @@ nav div.page_links a:hover{
 }
 
 .contact div.form input:focus{
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   border-bottom: 2px solid #2c3e50;
   color: #2c3e50;
 }
@@ -241,3 +242,195 @@ footer div.lower_div{
   color: white;
 }
 /* footer */
+
+@media screen and (max-width: 1024px){
+
+  nav div.web_title{
+    width: 45%;
+  }
+
+  nav div.web_title a{
+    font-size: 1.5rem;
+  }
+
+  nav div.page_links{
+    width: 50%;
+  }
+
+  nav div.page_links a{
+    font-size: 1.315rem;
+  }
+
+  .content{
+    width: 72%;
+  }
+
+  footer div.upper_div h1{
+    font-size: 1.8rem;
+  }
+
+  .around_the_web a {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 768px){
+  nav div.web_title{
+    width: 40%;
+  }
+
+  nav div.page_links{
+    width: 54%;
+  }
+
+  nav div.web_title a{
+    font-size: 1rem;
+  }
+  
+  nav div.page_links a {
+    font-size: 0.8rem;
+  }
+
+  .container h1{
+    font-size: 1.5rem;
+  }
+  
+  img{
+    width: 30%;
+  }
+
+  .home div.container hr, .about hr{
+    border: 2.5px solid white;
+  }
+
+  .portfolio hr, .contact hr{
+    border: 2px solid #2c3e50;
+  }
+
+  .home div.container p {
+    font-size: 1.1rem;
+  }
+  
+  .content{
+    width: 90%;
+    flex-wrap: wrap;
+  }
+
+  .content p{
+    flex-basis: 100%;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  footer div.upper_div div {
+    width: 35%;
+  }
+
+  footer div.upper_div h1 {
+    font-size: 1.1rem;
+  }
+
+  .around_the_web a {
+    font-size: 0.95rem;
+  }
+
+  .about_freelancer p{
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 425px){ 
+  nav div.web_title {
+    width: 34%;
+  }
+
+  nav div.web_title a {
+    font-size: 0.9rem;
+  }
+
+  nav div.page_links {
+    width: 57%;
+  }
+
+  nav div.page_links a {
+    font-size: 0.75rem;
+  }
+
+  img{
+    width: 35%;
+  }
+
+  .home div.container p {
+    font-size: 0.9rem;
+  }
+
+  .contact div.form input {
+    width: 50%;
+    font-size: 0.8rem;
+  }
+
+  .contact div.form input:focus {
+    font-size: 0.8rem;
+  }
+
+  footer div.upper_div h1 {
+    font-size: 0.8rem;
+  }
+
+  .location p{
+    font-size: 0.7rem;
+  }
+
+  .around_the_web a {
+    font-size: 0.75rem;
+  }
+
+  .about_freelancer p {
+    font-size: 0.65rem;
+  }
+
+  .content p, .lower_div p{
+    font-size: 0.77rem;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .container h1{
+    font-size: 1rem;
+  }
+
+  .home div.container hr, .about hr{
+    border: 2px solid white;
+  }
+
+  .portfolio hr, .contact hr{
+    border: 2px solid #2c3e50;
+  }
+
+  .mainheader nav div{
+    padding-top: 3%;
+  }
+
+  nav div.page_links a{
+    font-size: 0.68rem;
+  }
+
+  .home div.container p{
+    font-size: 0.8rem;
+  }
+
+  .around_the_web a{
+    font-size: 0.65rem;
+  }
+
+  .content p, .lower_div p{
+    font-size: 0.77rem;
+  }
+}
+
+@media screen and (max-width: 320px){
+  /* body cann no longer support width less than 320px and will not shrink now  */
+  .body{
+    width: 320px;
+  }
+}
