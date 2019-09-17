@@ -62,9 +62,9 @@ nav div.page_links a:hover{
   color: white;
 }
 
-.home div.container hr{
+.home div.container hr, .about hr{
   border: 5px solid white;
-  width: 50%;
+  width: 15%;
 }
 
 .home div.container p{
@@ -76,11 +76,15 @@ nav div.page_links a:hover{
 .portfolio h1, .contact h1{
   text-align: center;
   color: #2c3e50;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
-.portfolio hr{
-  width: 40%;
+.home h1, .about h1{
+  font-size: 4rem;
+}
+
+.portfolio hr, .contact hr{
+  width: 15%;
   border: 5px solid #2c3e50;
 }
 
@@ -112,11 +116,6 @@ nav div.page_links a:hover{
   font-size: 2.5rem;
 }
 
-.about hr{
-  border: 5px solid white;
-  width: 50%;
-}
-
 .content{
   display: flex;
   width: 50%;
@@ -135,11 +134,9 @@ nav div.page_links a:hover{
   font-size: 1rem;
   color: white;
   font-weight: bold;
-  border-radius: 10%;
-  -moz-border-radius: 10%;
-  -webkit-border-radius: 10%;
   outline: none;
   cursor: pointer;
+  border: 1px solid white;
 }
 
 .about button:hover{
@@ -153,10 +150,6 @@ nav div.page_links a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.contact hr{
-  width: 50%;
-  border: 5px solid #2c3e50
 }
 
 .contact div.form{
@@ -181,8 +174,8 @@ nav div.page_links a:hover{
   color: #2c3e50;
 }
 
-.contact div.form button{
-  margin: 1% 0px;
+.contact div.action button{
+  margin: 1% 10%;
   padding: 1%;
   background-color: #1abc9c;
   color: white;
@@ -194,7 +187,8 @@ nav div.page_links a:hover{
   cursor: pointer;
 }
 
-.contact div.form button:hover{
+
+.contact div.action button:hover{
   opacity: 0.8;
   font-weight: bold;
 }
@@ -234,6 +228,17 @@ footer div.upper_div div{
   background-color: white;
   color: #2c3e50;
 }
+
+.about_freelancer a{
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.about_freelancer a:hover{
+  color: #117964;
+  text-decoration: underline;
+}
+
 
 footer div.lower_div{
   display: flex;
@@ -371,6 +376,10 @@ footer div.lower_div{
 
   .contact div.form input:focus {
     font-size: 0.8rem;
+  }
+  
+  .contact div.action button{
+    margin: 1% 24%;
   }
 
   footer div.upper_div h1 {
